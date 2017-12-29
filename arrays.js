@@ -7,9 +7,10 @@ function addElementToBeginningOfArray(x) {
 }
 
 function destructivelyAddElementToBeginningOfArray(x) {
-  chocolateBars = [x, ...chocolateBars]
+  array = [x, ...array]
 }
 
-addElementDestructivelyToBeginningOfArray("hi")
-console.log(chocolateBars)
+function 
+
+console.log(array)
 
