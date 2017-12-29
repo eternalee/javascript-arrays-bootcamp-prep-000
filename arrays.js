@@ -1,24 +1,21 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
+console.log(chocolateBars)
+
 function addElementToBeginningOfArray(x) {
   [x, ...chocolateBars]
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  
+console.log(chocolateBars)
+
+function destructivelyAddElementToBeginningOfArray(x) {
+  chocolateBars = [x, ...chocolateBars]
 }
 
+addElementDestructivelyToBeginningOfArray("hi")
+console.log(chocolateBars)
 
 //////////////////////////////
-
-addElementToBeginningOfArray("hi");
-console.log(array)
-
-function addElementDestructivelyToBeginningOfArray(element) {
-  array = [element, ...array]
-}
-addElementDestructivelyToBeginningOfArray("hi")
-console.log(array);
 
 
 var cats = ["milo", "garfield", "otis"]
