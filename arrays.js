@@ -7,16 +7,16 @@ function addElementToBeginningOfArray(array, x) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, x) {
-  array.unshift(x)
+  array.unshift(x);
   return array
 }
 
 function addElementToEndOfArray(array, x) {
-  [...array, x]
+  return [...array, x]
 }
 
 function destructivelyAddElementToEndOfArray(array, x) {
-  array = [...array, x]
+  array.push(x);
+  return array
 }
-console.log(array)
 
