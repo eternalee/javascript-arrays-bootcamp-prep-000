@@ -1,6 +1,4 @@
-var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-
-console.log(chocolateBars)
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(x) {
   [x, ...chocolateBars]
