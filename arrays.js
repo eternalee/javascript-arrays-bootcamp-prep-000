@@ -10,7 +10,10 @@ function destructivelyAddElementToBeginningOfArray(x) {
   array = [x, ...array]
 }
 
-function 
+function addElementToEndOfArray() {
+  
+}
 
+function 
 console.log(array)
 
